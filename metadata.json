@@ -1,0 +1,5 @@
+{
+  "name": "Sticky Notes Widget",
+  "description": "A minimalist, mobile-friendly sticky note application. Create notes, tap to complete, and track your history.",
+  "requestFramePermissions": []
+}
