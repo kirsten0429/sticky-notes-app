@@ -9,7 +9,7 @@ interface CompletedListProps {
   onDelete: (id: string) => void;
 }
 
-const CompletedList: React.FC<CompletedListProps> = ({ notes, onRestore, onDelete }) => {
+export const CompletedList: React.FC<CompletedListProps> = ({ notes, onRestore, onDelete }) => {
   if (notes.length === 0) return null;
 
   return (
@@ -59,5 +59,3 @@ const CompletedList: React.FC<CompletedListProps> = ({ notes, onRestore, onDelet
     </div>
   );
 };
-
-export default CompletedList;

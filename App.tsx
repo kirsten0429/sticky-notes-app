@@ -3,7 +3,7 @@ import { Plus, StickyNote as StickyNoteIcon } from 'lucide-react';
 import { Note, NOTE_COLORS } from './types';
 import { generateId, getRandomRotation } from './utils';
 import { StickyNote } from './components/StickyNote';
-import CompletedList from './components/CompletedList';
+import { CompletedList } from './components/CompletedList';
 
 const STORAGE_KEY = 'sticky_notes_app_v1';
 
